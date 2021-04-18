@@ -1,0 +1,16 @@
+#VubtnObservationsVu {
+	color: #fff;
+	background-color: #9c27b0;
+	border: 1px solid #673ab7;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#VubtnObservationsVu:hover {
+	background-color: #673ab7;
+}
+
+.VubtnObservationsVu_box_modal {
+	direction: rtl;
+	z-index: 1001;
+}

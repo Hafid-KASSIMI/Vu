@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link href="../css/w3.css" rel="stylesheet">
+  </head>
+<body>
+    <div class="w3-container">
+        <div>
+            Remplir le formulaire qui suit par des observations personalisées :
+            <em>( Ou choisir une langue pour voir des observations d'exemple : 
+            
+            <select id="obsLang">
+                <option value="##">----</option>
+                <option value="AR">العربية</option>
+                <option value="EN">English</option>
+                <option value="FR">Français</option>
+            </select> ) </em>
+        </div>
+        <div>
+            <div class="w3-margin-top">
+                Saisir des observations pour chaque intervalle de notes :
+            </div>
+            <div id="intervals" class="w3-section w3-padding">
+            </div>
+        </div>
+		<div class="w3-container">
+			<button id="saveObservations" class="w3-button w3-right w3-purple w3-hover-deep-purple" type="button">Sauvegarder</button>
+		</div>
+		<div>
+			<h5><b>Remarque : </b></h5>
+			Il est possible de saisir plusieurs observations pour un seul intervalle séparées par le signe : <b> | </b>. Le choix de l'observation à attribuer sera aléatoire.<br />
+			( Pour obtenir le caractère "<b> | </b>", utiliser les touches : <em>AltGr + 6</em> ) 
+		</div>
+    </div>
+	<script src="../scripts/jquery-3.3.1.min.js"></script>
+	<script src="../scripts/common.js"></script>
+	<script src="../scripts/options.js"></script>
+</body>
+</html>
